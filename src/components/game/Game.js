@@ -8,11 +8,11 @@ class Game extends React.Component {
     constructor (props) {
         super (props)
         this.state = {
-            venue: this.props.venue,
-            homeTeam: this.props.homeTeam,
-            homeTeamLogo: this.props.homeTeamLogo,
-            visitingTeam: this.props.visitingTeam,
-            visitingTeamLogo: this.props.visitingTeamLogo,
+            venue: props.venue,
+            homeTeam: props.homeTeam,
+            homeTeamLogo: props.homeTeamLogo,
+            visitingTeam: props.visitingTeam,
+            visitingTeamLogo: props.visitingTeamLogo,
             HomeTeamStats: {
                 shots: 0,
                 score: 0,
