@@ -26,8 +26,8 @@ class Game extends React.Component {
             resetCount: 0
         }
 
-        this.scoreAudio = new Audio({ScoreAudio})
-        this.missAudio = new Audio({MissAudio})
+        this.scoreAudio = new Audio(ScoreAudio)
+        this.missAudio = new Audio(MissAudio)
     }
 
     shotHandler = (team) => {
