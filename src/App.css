@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Red Rose', cursive;
+  background-image: url("./components/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#game {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 2px double black;
+
 }
 
-.App-link {
-  color: #61dafb;
+#main {
+  display: flex;
+  justify-content: space-around;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+  border: 2px solid black;
+  border-radius: 2.5%;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#team1 {
+  color: rgb(15, 105, 35);
+  font-weight: bold;
+}
+
+#team2 {
+  color: rgb(105, 15, 35);
+  font-weight: bold;
+}
+
+#versus {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 250px;
+  width: 200px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+h3 {
+  color: yellow;
+  font-weight: bolder;
+  font-size: 3em;
+}
+
+button {
+  background-color: orangered;
+  border: 2px solid black;
+  border-radius: 2.5%;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+
+#empty {
+  height: 50px;
+}
+
+#scoreboard {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  background-color: whitesmoke;
+  border: 3px double black;
+  border-radius: 3%;
+}
+
+#teamScores {
+  display: flex;
+  justify-content: space-around;
+}
+
+#homeScore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+
+}
+
+#visitingScore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
 }
