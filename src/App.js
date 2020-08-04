@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 import Game from './components/game/Game'
-import homeTeamLogo1 from './assets/images/logo1.png'
-import visitingTeamLogo1 from './assets/images/logo2.jfif'
-import homeTeamLogo2 from './assets/images/logo3.jfif'
-import visitingTeamLogo2 from './assets/images/logo4.png'
+import homeTeamLogo1 from 'assets/images/logo1.png'
+import visitingTeamLogo1 from 'assets/images/logo2.jfif'
+import homeTeamLogo2 from 'assets/images/logo3.jfif'
+import visitingTeamLogo2 from 'assets/images/logo4.png'
 
 
 function App() {
