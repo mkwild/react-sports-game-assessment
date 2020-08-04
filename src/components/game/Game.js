@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React from 'react'
 import Team from '../team/Team'
 import ScoreBoard from '../scoreboard/Scoreboard'
 import ScoreAudio from '../../assets/audio/score.wav'
